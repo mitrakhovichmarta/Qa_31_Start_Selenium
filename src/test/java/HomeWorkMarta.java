@@ -39,9 +39,9 @@ public class HomeWorkMarta {
         //start
         WebElement email = wd.findElement(By.cssSelector("[placeholder ^= 'Email']"));
         //end
-        WebElement a5 = wd.findElement(By.cssSelector("[placeholder $='Password']"));
+        WebElement password = wd.findElement(By.cssSelector("[placeholder $='Password']"));
         //contains
-        WebElement password = wd.findElement(By.cssSelector("[placeholder *='Password']"));
+        WebElement password1 = wd.findElement(By.cssSelector("[placeholder *='Password']"));
 
        wd.quit();
 
